@@ -34,7 +34,8 @@ export class JsonQuestionRepository implements IQuestionRepository {
   }
 
   private async loadQuestions(): Promise<void> {
-    const response = await fetch('/data/questions.json');
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    const response = await fetch(`${baseUrl}data/questions.json`);
     if (!response.ok) {
       throw new Error('Failed to load questions');
     }
