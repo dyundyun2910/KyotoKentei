@@ -4,12 +4,11 @@ import { Question } from '../../domain/entities/Question';
 import { Level } from '../../domain/valueObjects/Level';
 import { QuizId } from '../../domain/valueObjects/QuizId';
 import { StartQuizRequest } from '../dto/StartQuizRequest';
-import { StartQuizResponse } from '../dto/StartQuizResponse';
 
 export class StartQuizUseCase {
   constructor(private readonly questionRepository: IQuestionRepository) {}
 
-  async execute(request: StartQuizRequest): Promise<StartQuizResponse> {
+  async execute(request: StartQuizRequest): Promise<Quiz> {
     const level = Level.fromString(request.level);
     const allQuestions = await this.questionRepository.findByLevel(level);
 
@@ -26,7 +25,7 @@ export class StartQuizUseCase {
 
     const quiz = Quiz.create(QuizId.generate(), level, selectedQuestions);
 
-    return StartQuizResponse.fromQuiz(quiz);
+    return quiz;
   }
 
   private selectRandomQuestions(questions: Question[], count: number): Question[] {

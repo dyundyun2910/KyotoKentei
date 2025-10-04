@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HomeScreen } from './components/screens/HomeScreen';
 import { LevelSelector } from './components/screens/LevelSelector';
 import { QuestionCountSelector } from './components/screens/QuestionCountSelector';
@@ -6,72 +6,24 @@ import { QuizScreen } from './components/screens/QuizScreen';
 import { FeedbackScreen } from './components/screens/FeedbackScreen';
 import { ResultScreen } from './components/screens/ResultScreen';
 import { HistoryScreen } from './components/screens/HistoryScreen';
+import { Container } from './di/Container';
+import { QuizStateViewModel, FeedbackViewModel, ResultViewModel } from './presentation/viewModels/QuizViewModel';
 import './styles/App.css';
 
 type Screen = 'home' | 'level' | 'count' | 'quiz' | 'feedback' | 'result' | 'history';
 
-// モックデータ
-const mockQuestion = {
-  category: '歴史',
-  text: '延暦13年(794)、桓武天皇は( )から、平安京に新しい都を遷した。',
-  options: ['長岡京', '平城京', '難波京', '藤原京'],
-};
-
-const mockCategoryResults = [
-  { category: '歴史', correct: 4, total: 5, accuracy: 80 },
-  { category: '寺院', correct: 3, total: 5, accuracy: 60 },
-  { category: '行事', correct: 5, total: 5, accuracy: 100 },
-];
-
-const mockHistory = [
-  {
-    date: '2024-10-04T15:30:00',
-    level: '3級',
-    totalQuestions: 10,
-    correctAnswers: 7,
-    accuracy: 70,
-    topCategories: [
-      { category: '歴史', accuracy: 80 },
-      { category: '寺院', accuracy: 60 },
-    ],
-  },
-  {
-    date: '2024-10-03T10:15:00',
-    level: '2級',
-    totalQuestions: 10,
-    correctAnswers: 6,
-    accuracy: 60,
-    topCategories: [
-      { category: '歴史', accuracy: 50 },
-      { category: '文化', accuracy: 70 },
-    ],
-  },
-  {
-    date: '2024-10-02T19:45:00',
-    level: '3級',
-    totalQuestions: 100,
-    correctAnswers: 85,
-    accuracy: 85,
-    topCategories: [
-      { category: '歴史', accuracy: 90 },
-      { category: '寺院', accuracy: 80 },
-      { category: '行事', accuracy: 85 },
-    ],
-  },
-];
-
-const mockStats = {
-  totalAttempts: 15,
-  averageAccuracy: 72,
-  bestCategory: { category: '行事', accuracy: 90 },
-  weakestCategory: { category: '寺院', accuracy: 55 },
-};
+const container = Container.getInstance();
+const quizController = container.quizController;
+const historyRepository = container.quizHistoryRepository;
 
 function App() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('home');
   const [selectedLevel, setSelectedLevel] = useState<string>('');
-  const [selectedCount, setSelectedCount] = useState<number>(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<number>(0);
+  const [quizState, setQuizState] = useState<QuizStateViewModel | null>(null);
+  const [feedbackState, setFeedbackState] = useState<FeedbackViewModel | null>(null);
+  const [resultState, setResultState] = useState<ResultViewModel | null>(null);
+  const [history, setHistory] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleStart = () => {
     setCurrentScreen('level');
@@ -82,29 +34,68 @@ function App() {
     setCurrentScreen('count');
   };
 
-  const handleSelectCount = (count: number) => {
-    setSelectedCount(count);
-    setCurrentScreen('quiz');
+  const handleSelectCount = async (count: number) => {
+    setIsLoading(true);
+    try {
+      const state = await quizController.startQuiz(selectedLevel, count);
+      setQuizState(state);
+      setCurrentScreen('quiz');
+    } catch (error) {
+      console.error('Failed to start quiz:', error);
+      alert('クイズの開始に失敗しました');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleAnswer = (index: number) => {
-    setSelectedAnswer(index);
-    setTimeout(() => {
-      setCurrentScreen('feedback');
-    }, 500);
+    try {
+      const feedback = quizController.answerCurrentQuestion(index);
+      setFeedbackState(feedback);
+      setTimeout(() => {
+        setCurrentScreen('feedback');
+      }, 500);
+    } catch (error) {
+      console.error('Failed to answer question:', error);
+    }
   };
 
-  const handleNext = () => {
-    // 実際の実装では次の問題へ遷移
-    // プロトタイプでは結果画面へ
-    setCurrentScreen('result');
+  const handleNext = async () => {
+    const nextState = quizController.moveToNextQuestion();
+
+    if (nextState === null) {
+      // Quiz is completed
+      setIsLoading(true);
+      try {
+        const result = await quizController.calculateResult();
+        setResultState(result);
+        setCurrentScreen('result');
+      } catch (error) {
+        console.error('Failed to calculate result:', error);
+        alert('結果の計算に失敗しました');
+      } finally {
+        setIsLoading(false);
+      }
+    } else {
+      setQuizState(nextState);
+      setFeedbackState(null);
+      setCurrentScreen('quiz');
+    }
   };
 
   const handleRetry = () => {
+    quizController.reset();
+    setQuizState(null);
+    setFeedbackState(null);
+    setResultState(null);
     setCurrentScreen('level');
   };
 
   const handleHome = () => {
+    quizController.reset();
+    setQuizState(null);
+    setFeedbackState(null);
+    setResultState(null);
     setCurrentScreen('home');
   };
 
@@ -116,19 +107,35 @@ function App() {
     }
   };
 
-  const handleViewHistory = () => {
-    setCurrentScreen('history');
+  const handleViewHistory = async () => {
+    setIsLoading(true);
+    try {
+      const historyData = await historyRepository.findAll();
+      setHistory(historyData);
+      setCurrentScreen('history');
+    } catch (error) {
+      console.error('Failed to load history:', error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
-  const handleClearHistory = () => {
+  const handleClearHistory = async () => {
     if (confirm('本当に履歴をクリアしますか？')) {
-      // 実際の実装ではLocalStorageをクリア
+      await historyRepository.clear();
+      setHistory([]);
       alert('履歴をクリアしました');
     }
   };
 
   return (
     <div className="app">
+      {isLoading && (
+        <div className="loading-overlay">
+          <div className="loading-spinner">読み込み中...</div>
+        </div>
+      )}
+
       {currentScreen === 'home' && (
         <HomeScreen onStart={handleStart} onViewHistory={handleViewHistory} />
       )}
@@ -145,42 +152,38 @@ function App() {
         />
       )}
 
-      {currentScreen === 'quiz' && (
+      {currentScreen === 'quiz' && quizState && (
         <QuizScreen
-          currentQuestion={1}
-          totalQuestions={selectedCount}
-          level={selectedLevel}
-          question={mockQuestion}
+          currentQuestion={quizState.currentQuestion}
+          totalQuestions={quizState.totalQuestions}
+          level={quizState.level}
+          question={quizState.question}
           onAnswer={handleAnswer}
           onQuit={handleHome}
         />
       )}
 
-      {currentScreen === 'feedback' && (
+      {currentScreen === 'feedback' && quizState && feedbackState && (
         <FeedbackScreen
-          currentQuestion={1}
-          totalQuestions={selectedCount}
-          level={selectedLevel}
-          question={mockQuestion}
-          isCorrect={selectedAnswer === 0}
-          correctIndex={0}
-          selectedIndex={selectedAnswer}
-          explanation={
-            selectedAnswer !== 0
-              ? '桓武天皇は**長岡京**から新しい都の平安京に遷都しました。桓武天皇は三つの都を経験しており、長岡京では藤原種継暗殺事件や早良親王の怨霊の祟りなどの問題があり、平安京への再遷都が行われました。'
-              : undefined
-          }
+          currentQuestion={quizState.currentQuestion}
+          totalQuestions={quizState.totalQuestions}
+          level={quizState.level}
+          question={quizState.question}
+          isCorrect={feedbackState.isCorrect}
+          correctIndex={feedbackState.correctIndex}
+          selectedIndex={feedbackState.selectedIndex}
+          explanation={feedbackState.explanation}
           onNext={handleNext}
         />
       )}
 
-      {currentScreen === 'result' && (
+      {currentScreen === 'result' && resultState && (
         <ResultScreen
-          correctCount={7}
-          totalQuestions={10}
-          accuracy={70}
-          categoryResults={mockCategoryResults}
-          weakCategories={['寺院']}
+          correctCount={resultState.correctCount}
+          totalQuestions={resultState.totalQuestions}
+          accuracy={resultState.accuracy}
+          categoryResults={resultState.categoryResults}
+          weakCategories={resultState.weakCategories}
           onRetry={handleRetry}
           onHome={handleHome}
         />
@@ -188,8 +191,13 @@ function App() {
 
       {currentScreen === 'history' && (
         <HistoryScreen
-          history={mockHistory}
-          stats={mockStats}
+          history={history}
+          stats={{
+            totalAttempts: history.length,
+            averageAccuracy: 0,
+            bestCategory: { category: '', accuracy: 0 },
+            weakestCategory: { category: '', accuracy: 0 },
+          }}
           onBack={handleBack}
           onClearHistory={handleClearHistory}
         />

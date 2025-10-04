@@ -1,12 +1,10 @@
 import { CategoryStatistics } from './CategoryStatistics';
 import { Category } from '../valueObjects/Category';
-import { Accuracy } from '../valueObjects/Accuracy';
 
 describe('CategoryStatistics Entity', () => {
   describe('create', () => {
     it('should create CategoryStatistics with valid data', () => {
       const category = new Category('歴史');
-      const accuracy = Accuracy.calculate(8, 10);
 
       const stats = CategoryStatistics.create(category, 8, 10);
 

@@ -21,7 +21,6 @@ interface QuizResultDTO {
 export class LocalStorageQuizHistoryRepository implements IQuizHistoryRepository {
   async save(result: QuizResult): Promise<void> {
     try {
-      const history = await this.findAll();
       const dto = this.toDTO(result);
 
       const serialized = localStorage.getItem(STORAGE_KEY);

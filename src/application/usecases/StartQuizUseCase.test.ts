@@ -58,12 +58,12 @@ describe('StartQuizUseCase', () => {
     mockRepository.setQuestions(createMockQuestions(50, '3級'));
 
     // Act
-    const response = await useCase.execute(request);
+    const quiz = await useCase.execute(request);
 
     // Assert
-    expect(response.totalQuestions).toBe(10);
-    expect(response.level).toBe('3級');
-    expect(response.quizId).toBeDefined();
+    expect(quiz.totalQuestions).toBe(10);
+    expect(quiz.level.value).toBe('3級');
+    expect(quiz.id).toBeDefined();
   });
 
   it('should filter questions by level', async () => {
@@ -76,11 +76,11 @@ describe('StartQuizUseCase', () => {
     mockRepository.setQuestions(questions);
 
     // Act
-    const response = await useCase.execute(request);
+    const quiz = await useCase.execute(request);
 
     // Assert
-    expect(response.level).toBe('3級');
-    expect(response.totalQuestions).toBe(5);
+    expect(quiz.level.value).toBe('3級');
+    expect(quiz.totalQuestions).toBe(5);
   });
 
   it('should throw error when not enough questions available', async () => {
@@ -110,11 +110,11 @@ describe('StartQuizUseCase', () => {
     mockRepository.setQuestions(createMockQuestions(50, '3級'));
 
     // Act
-    const response1 = await useCase.execute(request1);
-    const response2 = await useCase.execute(request2);
+    const quiz1 = await useCase.execute(request1);
+    const quiz2 = await useCase.execute(request2);
 
     // Assert
     // Different quiz IDs (randomness is reflected in quiz creation)
-    expect(response1.quizId).not.toBe(response2.quizId);
+    expect(quiz1.id.value).not.toBe(quiz2.id.value);
   });
 });
