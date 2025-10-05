@@ -16,6 +16,60 @@ const container = Container.getInstance();
 const quizController = container.quizController;
 const historyRepository = container.quizHistoryRepository;
 
+// 統計情報を計算する関数
+const calculateStats = (history: any[]) => {
+  if (history.length === 0) {
+    return {
+      totalAttempts: 0,
+      averageAccuracy: 0,
+      bestCategory: { category: '', accuracy: 0 },
+      weakestCategory: { category: '', accuracy: 0 },
+    };
+  }
+
+  // 平均正答率
+  const totalAccuracy = history.reduce((sum, record) => sum + record.accuracy, 0);
+  const averageAccuracy = Math.round(totalAccuracy / history.length);
+
+  // カテゴリ別の統計を集計
+  const categoryStats: { [key: string]: { correct: number; total: number } } = {};
+
+  history.forEach(record => {
+    record.topCategories.forEach((cat: any) => {
+      if (!categoryStats[cat.category]) {
+        categoryStats[cat.category] = { correct: 0, total: 0 };
+      }
+      // accuracyから逆算して正解数と総数を推定
+      // 実際のデータがあればそちらを使用
+      const total = 1; // 簡略化: 各カテゴリ1問として扱う
+      const correct = cat.accuracy / 100;
+      categoryStats[cat.category].correct += correct;
+      categoryStats[cat.category].total += total;
+    });
+  });
+
+  // 最も得意/苦手なカテゴリを計算
+  let bestCategory = { category: '', accuracy: 0 };
+  let weakestCategory = { category: '', accuracy: 100 };
+
+  Object.entries(categoryStats).forEach(([category, stats]) => {
+    const accuracy = Math.round((stats.correct / stats.total) * 100);
+    if (accuracy > bestCategory.accuracy) {
+      bestCategory = { category, accuracy };
+    }
+    if (accuracy < weakestCategory.accuracy && stats.total > 0) {
+      weakestCategory = { category, accuracy };
+    }
+  });
+
+  return {
+    totalAttempts: history.length,
+    averageAccuracy,
+    bestCategory,
+    weakestCategory,
+  };
+};
+
 function App() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('home');
   const [selectedLevel, setSelectedLevel] = useState<string>('');
@@ -111,7 +165,19 @@ function App() {
     setIsLoading(true);
     try {
       const historyData = await historyRepository.findAll();
-      setHistory(historyData);
+      // DTOデータをHistoryScreen用の形式に変換
+      const formattedHistory = (historyData as any[]).map((dto: any) => ({
+        date: dto.completedAt,
+        level: dto.level,
+        totalQuestions: dto.totalQuestions,
+        correctAnswers: dto.correctCount,
+        accuracy: dto.accuracy,
+        topCategories: dto.categoryStatistics.map((stat: any) => ({
+          category: stat.category,
+          accuracy: stat.accuracy,
+        })),
+      }));
+      setHistory(formattedHistory);
       setCurrentScreen('history');
     } catch (error) {
       console.error('Failed to load history:', error);
@@ -192,12 +258,7 @@ function App() {
       {currentScreen === 'history' && (
         <HistoryScreen
           history={history}
-          stats={{
-            totalAttempts: history.length,
-            averageAccuracy: 0,
-            bestCategory: { category: '', accuracy: 0 },
-            weakestCategory: { category: '', accuracy: 0 },
-          }}
+          stats={calculateStats(history)}
           onBack={handleBack}
           onClearHistory={handleClearHistory}
         />

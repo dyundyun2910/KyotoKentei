@@ -39,11 +39,9 @@ export class LocalStorageQuizHistoryRepository implements IQuizHistoryRepository
       if (!serialized) return [];
 
       const data: QuizResultDTO[] = JSON.parse(serialized);
-      // Note: QuizResultの完全な復元は複雑です
-      // 実際のアプリケーションではDTOとして直接使用するか、
-      // 簡略化したビューモデルを使用することを推奨します
-      // ここではテストパスのためダミー配列を返します
-      return new Array(data.length);
+      // Note: QuizResultの完全な復元は複雑なので、DTOをそのまま返す
+      // ViewModelとして使用する側で必要なデータを取得する
+      return data as any;
     } catch (error) {
       console.warn('Failed to load quiz history', error);
       return [];
