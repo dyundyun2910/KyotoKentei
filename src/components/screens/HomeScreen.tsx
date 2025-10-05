@@ -10,7 +10,7 @@ export const HomeScreen: React.FC<{
 
       <div className="illustration">
         {/* 京都のイラスト placeholder */}
-        <div className="illustration-placeholder">🏯</div>
+        <div className="illustration-placeholder">⛩️</div>
       </div>
 
       <button className="btn btn-primary" onClick={onStart}>
