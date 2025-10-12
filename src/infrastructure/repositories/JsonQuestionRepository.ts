@@ -15,6 +15,11 @@ interface QuestionDTO {
 
 export class JsonQuestionRepository implements IQuestionRepository {
   private questions: Question[] | null = null;
+  private baseUrl: string;
+
+  constructor(baseUrl: string = '/') {
+    this.baseUrl = baseUrl;
+  }
 
   async findAll(): Promise<Question[]> {
     if (!this.questions) {
@@ -34,8 +39,7 @@ export class JsonQuestionRepository implements IQuestionRepository {
   }
 
   private async loadQuestions(): Promise<void> {
-    const baseUrl = import.meta.env.BASE_URL || '/';
-    const response = await fetch(`${baseUrl}data/questions.json`);
+    const response = await fetch(`${this.baseUrl}data/questions.json`);
     if (!response.ok) {
       throw new Error('Failed to load questions');
     }

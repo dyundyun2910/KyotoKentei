@@ -9,9 +9,7 @@ export default {
     'src/**/*.{ts,tsx}',
     '!src/**/*.d.ts',
     '!src/main.tsx',
-    '!src/**/*.test.{ts,tsx}',
-    '!src/components/screens/**', // プロトタイプは除外
-    '!src/App.tsx', // プロトタイプは除外
+    '!src/**/*.test.{ts,tsx}'
   ],
   coverageThreshold: {
     global: {
@@ -35,4 +33,13 @@ export default {
   moduleNameMapper: {
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
+  testEnvironmentOptions: {
+    customExportConditions: [''],
+  },
+  globals: {
+    'process.env': {
+      NODE_ENV: 'test',
+    },
+  },
+  resolver: undefined,
 };

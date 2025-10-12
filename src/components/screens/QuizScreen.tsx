@@ -50,6 +50,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
             key={index}
             className={`btn btn-option ${selectedIndex === index ? 'selected' : ''}`}
             onClick={() => handleSelect(index)}
+            disabled={selectedIndex !== null && selectedIndex !== index}
           >
             <span className="option-label">{labels[index]}.</span> {option}
           </button>

@@ -28,7 +28,7 @@ export class Container {
 
   private constructor() {
     // Initialize Repositories
-    this._questionRepository = new JsonQuestionRepository();
+    this._questionRepository = new JsonQuestionRepository(import.meta.env.BASE_URL);
     this._quizHistoryRepository = new LocalStorageQuizHistoryRepository();
 
     // Initialize Services
