@@ -544,6 +544,84 @@ export interface IQuizHistoryRepository {
 }
 ```
 
+### 3.8 Entity: QuestionReport
+
+**新機能: 問題の間違い報告**
+
+```typescript
+// domain/entities/QuestionReport.ts
+
+import { QuestionId } from '../valueObjects/QuestionId';
+
+export class QuestionReport {
+  private constructor(
+    private readonly _questionId: QuestionId,
+    private _reportCount: number,
+    private readonly _firstReportedAt: Date,
+    private _lastReportedAt: Date
+  ) {}
+
+  static create(questionId: QuestionId): QuestionReport {
+    const now = new Date();
+    return new QuestionReport(questionId, 1, now, now);
+  }
+
+  static reconstruct(
+    questionId: QuestionId,
+    reportCount: number,
+    firstReportedAt: Date,
+    lastReportedAt: Date
+  ): QuestionReport {
+    if (reportCount < 1) {
+      throw new Error('Report count must be at least 1');
+    }
+    return new QuestionReport(
+      questionId,
+      reportCount,
+      firstReportedAt,
+      lastReportedAt
+    );
+  }
+
+  get questionId(): QuestionId {
+    return this._questionId;
+  }
+
+  get reportCount(): number {
+    return this._reportCount;
+  }
+
+  get firstReportedAt(): Date {
+    return this._firstReportedAt;
+  }
+
+  get lastReportedAt(): Date {
+    return this._lastReportedAt;
+  }
+
+  incrementReport(): void {
+    this._reportCount++;
+    this._lastReportedAt = new Date();
+  }
+}
+```
+
+### 3.9 Repository Interface: IQuestionReportRepository
+
+```typescript
+// domain/repositories/IQuestionReportRepository.ts
+
+import { QuestionReport } from '../entities/QuestionReport';
+import { QuestionId } from '../valueObjects/QuestionId';
+
+export interface IQuestionReportRepository {
+  findByQuestionId(questionId: QuestionId): Promise<QuestionReport | null>;
+  save(report: QuestionReport): Promise<void>;
+  findAll(): Promise<QuestionReport[]>;
+  clear(): Promise<void>;
+}
+```
+
 ---
 
 ## 4. ユースケース設計
@@ -727,6 +805,161 @@ export class CalculateResultUseCase {
     const categoryStatistics = this.scoringService.calculateCategoryStatistics(quiz);
 
     return QuizResult.fromQuiz(quiz, categoryStatistics);
+  }
+}
+```
+
+---
+
+### 4.4 ReportQuestionUseCase
+
+**新機能: 問題の間違い報告ユースケース**
+
+```typescript
+// application/usecases/ReportQuestionUseCase.ts
+
+import { IQuestionReportRepository } from '../../domain/repositories/IQuestionReportRepository';
+import { QuestionReport } from '../../domain/entities/QuestionReport';
+import { QuestionId } from '../../domain/valueObjects/QuestionId';
+import { ReportQuestionRequest } from '../dto/ReportQuestionRequest';
+
+export class ReportQuestionUseCase {
+  constructor(
+    private readonly questionReportRepository: IQuestionReportRepository
+  ) {}
+
+  async execute(request: ReportQuestionRequest): Promise<void> {
+    const questionId = new QuestionId(request.questionId);
+
+    // 既存の報告を探す
+    const existingReport = await this.questionReportRepository.findByQuestionId(questionId);
+
+    if (existingReport) {
+      // 既存の報告がある場合は報告回数を増やす
+      existingReport.incrementReport();
+      await this.questionReportRepository.save(existingReport);
+    } else {
+      // 新しい報告を作成
+      const newReport = QuestionReport.create(questionId);
+      await this.questionReportRepository.save(newReport);
+    }
+  }
+}
+```
+
+**DTO:**
+```typescript
+// application/dto/ReportQuestionRequest.ts
+
+export class ReportQuestionRequest {
+  constructor(public readonly questionId: string) {
+    if (!questionId || questionId.trim().length === 0) {
+      throw new Error('Question ID cannot be empty');
+    }
+  }
+}
+```
+
+**テスト:**
+```typescript
+// application/usecases/ReportQuestionUseCase.test.ts
+
+describe('ReportQuestionUseCase', () => {
+  let useCase: ReportQuestionUseCase;
+  let mockRepository: MockQuestionReportRepository;
+
+  beforeEach(() => {
+    mockRepository = new MockQuestionReportRepository();
+    useCase = new ReportQuestionUseCase(mockRepository);
+  });
+
+  it('should create new report when question has not been reported', async () => {
+    // Arrange
+    const request = new ReportQuestionRequest('q001');
+    mockRepository.setReports([]);
+
+    // Act
+    await useCase.execute(request);
+
+    // Assert
+    const reports = await mockRepository.findAll();
+    expect(reports).toHaveLength(1);
+    expect(reports[0].questionId.value).toBe('q001');
+    expect(reports[0].reportCount).toBe(1);
+  });
+
+  it('should increment report count when question already reported', async () => {
+    // Arrange
+    const request = new ReportQuestionRequest('q001');
+    const existingReport = QuestionReport.create(new QuestionId('q001'));
+    mockRepository.setReports([existingReport]);
+
+    // Act
+    await useCase.execute(request);
+
+    // Assert
+    const report = await mockRepository.findByQuestionId(new QuestionId('q001'));
+    expect(report).not.toBeNull();
+    expect(report!.reportCount).toBe(2);
+  });
+});
+```
+
+---
+
+### 4.5 GetQuestionReportsUseCase
+
+**管理者向け: 報告データ取得ユースケース**
+
+```typescript
+// application/usecases/GetQuestionReportsUseCase.ts
+
+import { IQuestionReportRepository } from '../../domain/repositories/IQuestionReportRepository';
+import { QuestionReport } from '../../domain/entities/QuestionReport';
+import { GetQuestionReportsResponse } from '../dto/GetQuestionReportsResponse';
+
+export class GetQuestionReportsUseCase {
+  constructor(
+    private readonly questionReportRepository: IQuestionReportRepository
+  ) {}
+
+  async execute(): Promise<GetQuestionReportsResponse> {
+    const reports = await this.questionReportRepository.findAll();
+
+    // 報告回数の多い順にソート
+    const sortedReports = reports
+      .sort((a, b) => b.reportCount - a.reportCount);
+
+    return GetQuestionReportsResponse.fromReports(sortedReports);
+  }
+}
+```
+
+**DTO:**
+```typescript
+// application/dto/GetQuestionReportsResponse.ts
+
+import { QuestionReport } from '../../domain/entities/QuestionReport';
+
+export interface QuestionReportDTO {
+  questionId: string;
+  reportCount: number;
+  firstReportedAt: string;
+  lastReportedAt: string;
+}
+
+export class GetQuestionReportsResponse {
+  constructor(public readonly reports: QuestionReportDTO[]) {}
+
+  static fromReports(reports: QuestionReport[]): GetQuestionReportsResponse {
+    const dtos = reports.map(report => ({
+      questionId: report.questionId.value,
+      reportCount: report.reportCount,
+      firstReportedAt: report.firstReportedAt.toISOString(),
+      lastReportedAt: report.lastReportedAt.toISOString()
+    }));
+
+    return new GetQuestionReportsResponse(dtos);
   }
 }
 ```

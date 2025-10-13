@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 interface FeedbackScreenProps {
   currentQuestion: number;
@@ -14,6 +14,7 @@ interface FeedbackScreenProps {
   selectedIndex: number;
   explanation?: string;
   onNext: () => void;
+  onReport?: () => Promise<void>;
 }
 
 export const FeedbackScreen: React.FC<FeedbackScreenProps> = ({
@@ -26,8 +27,26 @@ export const FeedbackScreen: React.FC<FeedbackScreenProps> = ({
   selectedIndex,
   explanation,
   onNext,
+  onReport,
 }) => {
   const labels = ['A', 'B', 'C', 'D'];
+  const [isReported, setIsReported] = useState(false);
+  const [isReporting, setIsReporting] = useState(false);
+
+  const handleReport = async () => {
+    if (!onReport || isReporting || isReported) return;
+
+    setIsReporting(true);
+    try {
+      await onReport();
+      setIsReported(true);
+    } catch (error) {
+      console.error('Failed to report question:', error);
+      alert('報告に失敗しました');
+    } finally {
+      setIsReporting(false);
+    }
+  };
 
   return (
     <div className="screen feedback-screen">
@@ -69,6 +88,18 @@ export const FeedbackScreen: React.FC<FeedbackScreenProps> = ({
         <div className={`feedback-text ${isCorrect ? 'correct' : 'incorrect'}`}>
           {isCorrect ? '✓ 正解！' : '✗ 不正解'}
         </div>
+
+        {onReport && (
+          <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+            <button
+              className="btn-report"
+              onClick={handleReport}
+              disabled={isReporting || isReported}
+            >
+              {isReported ? '✓ 報告済み' : 'この問題が間違っていることを報告する'}
+            </button>
+          </div>
+        )}
 
         {!isCorrect && explanation && (
           <div className="explanation">

@@ -6,15 +6,17 @@ import { QuizScreen } from './components/screens/QuizScreen';
 import { FeedbackScreen } from './components/screens/FeedbackScreen';
 import { ResultScreen } from './components/screens/ResultScreen';
 import { HistoryScreen } from './components/screens/HistoryScreen';
+import { AdminScreen } from './components/screens/AdminScreen';
 import { Container } from './di/Container';
 import { QuizStateViewModel, FeedbackViewModel, ResultViewModel } from './presentation/viewModels/QuizViewModel';
 import './styles/App.css';
 
-type Screen = 'home' | 'level' | 'count' | 'quiz' | 'feedback' | 'result' | 'history';
+type Screen = 'home' | 'level' | 'count' | 'quiz' | 'feedback' | 'result' | 'history' | 'admin';
 
 const container = Container.getInstance();
 const quizController = container.quizController;
 const historyRepository = container.quizHistoryRepository;
+const questionReportRepository = container.questionReportRepository;
 
 // 統計情報を計算する関数
 const calculateStats = (history: any[]) => {
@@ -77,6 +79,7 @@ function App() {
   const [feedbackState, setFeedbackState] = useState<FeedbackViewModel | null>(null);
   const [resultState, setResultState] = useState<ResultViewModel | null>(null);
   const [history, setHistory] = useState<any[]>([]);
+  const [reports, setReports] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleStart = () => {
@@ -154,7 +157,7 @@ function App() {
   };
 
   const handleBack = () => {
-    if (currentScreen === 'level' || currentScreen === 'history') {
+    if (currentScreen === 'level' || currentScreen === 'history' || currentScreen === 'admin') {
       setCurrentScreen('home');
     } else if (currentScreen === 'count') {
       setCurrentScreen('level');
@@ -194,6 +197,56 @@ function App() {
     }
   };
 
+  const handleReportQuestion = async () => {
+    try {
+      await quizController.reportCurrentQuestion();
+    } catch (error) {
+      console.error('Failed to report question:', error);
+      throw error;
+    }
+  };
+
+  const handleViewAdmin = async () => {
+    setIsLoading(true);
+    try {
+      const reportsData = await questionReportRepository.findAll();
+      // DTOデータをAdminScreen用の形式に変換
+      const formattedReports = reportsData.map((report: any) => ({
+        questionId: report.questionId.value,
+        reportCount: report.reportCount,
+        firstReportedAt: report.firstReportedAt.toISOString(),
+        lastReportedAt: report.lastReportedAt.toISOString(),
+      }));
+      setReports(formattedReports);
+      setCurrentScreen('admin');
+    } catch (error) {
+      console.error('Failed to load reports:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleExportReports = () => {
+    const dataStr = JSON.stringify(reports, null, 2);
+    const dataBlob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(dataBlob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `question-reports-${new Date().toISOString().split('T')[0]}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
+  const handleClearReports = async () => {
+    if (confirm('本当に全ての報告をクリアしますか？')) {
+      await questionReportRepository.clear();
+      setReports([]);
+      alert('報告をクリアしました');
+    }
+  };
+
   return (
     <div className="app">
       {isLoading && (
@@ -203,7 +256,7 @@ function App() {
       )}
 
       {currentScreen === 'home' && (
-        <HomeScreen onStart={handleStart} onViewHistory={handleViewHistory} />
+        <HomeScreen onStart={handleStart} onViewHistory={handleViewHistory} onViewAdmin={handleViewAdmin} />
       )}
 
       {currentScreen === 'level' && (
@@ -240,6 +293,7 @@ function App() {
           selectedIndex={feedbackState.selectedIndex}
           explanation={feedbackState.explanation}
           onNext={handleNext}
+          onReport={handleReportQuestion}
         />
       )}
 
@@ -261,6 +315,15 @@ function App() {
           stats={calculateStats(history)}
           onBack={handleBack}
           onClearHistory={handleClearHistory}
+        />
+      )}
+
+      {currentScreen === 'admin' && (
+        <AdminScreen
+          reports={reports}
+          onBack={handleBack}
+          onExport={handleExportReports}
+          onClearReports={handleClearReports}
         />
       )}
     </div>

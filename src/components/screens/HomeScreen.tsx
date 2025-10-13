@@ -3,7 +3,8 @@ import React from 'react';
 export const HomeScreen: React.FC<{
   onStart: () => void;
   onViewHistory: () => void;
-}> = ({ onStart, onViewHistory }) => {
+  onViewAdmin: () => void;
+}> = ({ onStart, onViewHistory, onViewAdmin }) => {
   return (
     <div className="screen home-screen">
       <h1 className="app-title">京都検定対策アプリ</h1>
@@ -19,6 +20,10 @@ export const HomeScreen: React.FC<{
 
       <button className="btn btn-secondary" onClick={onViewHistory}>
         過去の成績を見る
+      </button>
+
+      <button className="btn btn-secondary" onClick={onViewAdmin}>
+        問題報告を管理
       </button>
     </div>
   );

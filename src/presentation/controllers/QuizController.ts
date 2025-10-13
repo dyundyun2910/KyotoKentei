@@ -3,9 +3,11 @@ import { QuizResult } from '../../domain/entities/QuizResult';
 import { StartQuizUseCase } from '../../application/usecases/StartQuizUseCase';
 import { AnswerQuestionUseCase } from '../../application/usecases/AnswerQuestionUseCase';
 import { CalculateResultUseCase } from '../../application/usecases/CalculateResultUseCase';
+import { ReportQuestionUseCase } from '../../application/usecases/ReportQuestionUseCase';
 import { IQuizHistoryRepository } from '../../domain/repositories/IQuizHistoryRepository';
 import { StartQuizRequest } from '../../application/dto/StartQuizRequest';
 import { AnswerQuestionRequest } from '../../application/dto/AnswerQuestionRequest';
+import { ReportQuestionRequest } from '../../application/dto/ReportQuestionRequest';
 import {
   QuizStateViewModel,
   QuestionViewModel,
@@ -23,7 +25,8 @@ export class QuizController {
     private readonly startQuizUseCase: StartQuizUseCase,
     private readonly answerQuestionUseCase: AnswerQuestionUseCase,
     private readonly calculateResultUseCase: CalculateResultUseCase,
-    private readonly quizHistoryRepository: IQuizHistoryRepository
+    private readonly quizHistoryRepository: IQuizHistoryRepository,
+    private readonly reportQuestionUseCase?: ReportQuestionUseCase
   ) {}
 
   async startQuiz(level: string, questionCount: number): Promise<QuizStateViewModel> {
@@ -109,6 +112,21 @@ export class QuizController {
     this.currentQuiz = null;
     this.currentResult = null;
     this.lastAnswerIndex = null;
+  }
+
+  async reportCurrentQuestion(): Promise<void> {
+    if (!this.currentQuiz) {
+      throw new Error('No active quiz');
+    }
+
+    if (!this.reportQuestionUseCase) {
+      throw new Error('Report question use case not available');
+    }
+
+    const currentQuestion = this.currentQuiz.currentQuestion;
+    const request = new ReportQuestionRequest(currentQuestion.id.value);
+
+    await this.reportQuestionUseCase.execute(request);
   }
 
   private toQuestionViewModel(question: any): QuestionViewModel {
