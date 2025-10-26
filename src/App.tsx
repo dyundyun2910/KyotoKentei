@@ -247,8 +247,13 @@ function App() {
     }
   };
 
+  // レベル選択後の画面のみダークテーマを適用
+  const shouldApplyDarkTheme = selectedLevel === '1級' &&
+    (currentScreen === 'count' || currentScreen === 'quiz' ||
+     currentScreen === 'feedback' || currentScreen === 'result');
+
   return (
-    <div className="app">
+    <div className={`app${shouldApplyDarkTheme ? ' level-1' : ''}`}>
       {isLoading && (
         <div className="loading-overlay">
           <div className="loading-spinner">読み込み中...</div>
