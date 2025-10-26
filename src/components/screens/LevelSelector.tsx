@@ -25,6 +25,14 @@ export const LevelSelector: React.FC<{
         <div className="level-name">2級</div>
         <div className="level-description">中級レベル</div>
       </button>
+
+      <button
+        className="btn btn-level"
+        onClick={() => onSelectLevel('1級')}
+      >
+        <div className="level-name">1級</div>
+        <div className="level-description">上級レベル</div>
+      </button>
     </div>
   );
 };

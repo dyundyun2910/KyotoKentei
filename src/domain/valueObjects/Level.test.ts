@@ -12,10 +12,9 @@ describe('Level Value Object', () => {
       expect(level.value).toBe('2級');
     });
 
-    it('should throw error for invalid level "1級"', () => {
-      expect(() => Level.fromString('1級')).toThrow(
-        'Invalid level: 1級. Must be either \'2級\' or \'3級\''
-      );
+    it('should create a Level with "1級"', () => {
+      const level = Level.fromString('1級');
+      expect(level.value).toBe('1級');
     });
 
     it('should throw error for empty string', () => {
@@ -24,6 +23,12 @@ describe('Level Value Object', () => {
 
     it('should throw error for invalid format', () => {
       expect(() => Level.fromString('Level 3')).toThrow('Invalid level');
+    });
+
+    it('should throw error for invalid level "4級"', () => {
+      expect(() => Level.fromString('4級')).toThrow(
+        'Invalid level: 4級. Must be either \'1級\', \'2級\' or \'3級\''
+      );
     });
   });
 

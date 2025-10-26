@@ -29,7 +29,7 @@ describe('Question Entity', () => {
     it('should throw error for invalid level', () => {
       const params = {
         id: 'q001',
-        level: '1級',
+        level: '4級',
         category: '歴史',
         examYear: '2004/12/12',
         questionText: 'テスト問題',

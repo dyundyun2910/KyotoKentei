@@ -96,7 +96,7 @@ describe('StartQuizUseCase', () => {
 
   it('should throw error for invalid level', async () => {
     // Arrange
-    const request = new StartQuizRequest('1級', 10);
+    const request = new StartQuizRequest('4級', 10);
     mockRepository.setQuestions(createMockQuestions(50, '3級'));
 
     // Act & Assert
