@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 
+// examYear形式 "YYYY/MM/DD" から年のみを抽出
+const formatExamYear = (examYear: string): string => {
+  const year = examYear.split('/')[0];
+  return `${year}年`;
+};
+
 interface QuizScreenProps {
   currentQuestion: number;
   totalQuestions: number;
   level: string;
   question: {
     category: string;
+    examYear: string;
     text: string;
     options: string[];
   };
@@ -41,6 +48,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({
       </div>
 
       <div className="category-badge">カテゴリ: {question.category}</div>
+      <div className="exam-year">出題年: {formatExamYear(question.examYear)}</div>
 
       <div className="question-text">{question.text}</div>
 

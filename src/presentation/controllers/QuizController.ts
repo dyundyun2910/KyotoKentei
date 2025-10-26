@@ -133,6 +133,7 @@ export class QuizController {
     return {
       id: question.id.value,
       category: question.category.value,
+      examYear: question.examYear,
       text: question.questionText,
       options: question.options,
     };

@@ -3,6 +3,7 @@ import { QuizScreen } from '../QuizScreen';
 
 const mockQuestion = {
   category: '歴史',
+  examYear: '2004/12/12',
   text: '延暦13年(794)、桓武天皇は長岡京から、どこに都を遷しましたか？',
   options: ['平安京', '平城京', '難波京', '藤原京'],
 };

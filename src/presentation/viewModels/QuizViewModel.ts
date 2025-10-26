@@ -1,6 +1,7 @@
 export interface QuestionViewModel {
   id: string;
   category: string;
+  examYear: string;
   text: string;
   options: string[];
 }
