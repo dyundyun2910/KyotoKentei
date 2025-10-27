@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { HomeScreen } from './components/screens/HomeScreen';
 import { LevelSelector } from './components/screens/LevelSelector';
 import { QuestionCountSelector } from './components/screens/QuestionCountSelector';
@@ -246,6 +246,11 @@ function App() {
       alert('報告をクリアしました');
     }
   };
+
+  // 画面遷移時にスクロール位置をトップに戻す
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentScreen]);
 
   // レベル選択後の画面のみダークテーマを適用
   const shouldApplyDarkTheme = selectedLevel === '1級' &&
