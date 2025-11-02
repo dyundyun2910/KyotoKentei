@@ -31053,7 +31053,7 @@
       "level": "1級",
       "category": "伝統文化",
       "exam-year": "2006/12/10",
-      "question": "(7) 安永9年(1780)、秋里籬島が著した京の名所・史跡などを図説した書物は何 horrendous。",
+      "question": "(7) 安永9年(1780)、秋里籬島が著した京の名所・史跡などを図説した書物は何か。",
       "options": [
         "雍州府志",
         "拾遺都名所図会",
@@ -34390,7 +34390,7 @@
         "観看席",
         "三畳台目"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -34405,7 +34405,7 @@
         "世阿弥",
         "坂田藤十郎"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -34420,7 +34420,7 @@
         "檜扇",
         "倭文"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": ""
     },
     {
@@ -34660,7 +34660,7 @@
         "大蔵",
         "白拍子"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -34720,7 +34720,7 @@
         "田楽",
         "鷺"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": ""
     },
     {
@@ -34865,8 +34865,8 @@
       "exam-year": "2011/12/11",
       "question": "(6) 徳川家康が豊臣家を滅ぼすために「大坂冬の陣」の口実に利用したといわれる、方広寺の梵鐘(重文)に刻まれている8文字の字句は何か。",
       "options": [
-        "君臣豊楽",
-        "国家安康",
+        "国家安寧君臣豊楽",
+        "国家安康君臣豊楽",
         "豊臣家滅亡",
         "徳川家繁栄"
       ],
@@ -35335,7 +35335,7 @@
         "吉井勇",
         "正岡子規"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -35365,7 +35365,7 @@
         "嵯峨鳥居本",
         "祇園新橋"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -35575,7 +35575,7 @@
         "平安宮",
         "内裏"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -35620,7 +35620,7 @@
         "茶屋四郎次郎",
         "炭屋 酢屋"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": ""
     },
     {
@@ -35635,7 +35635,7 @@
         "本居宣長",
         "呉服間"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": ""
     },
     {
@@ -35665,7 +35665,7 @@
         "禁門の変",
         "伏見御香宮"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -35690,10 +35690,10 @@
       "exam-year": "2012/12/09",
       "question": "(11) 伏見稲荷大社の起源は、和銅4年(711)、秦伊呂具が稲荷山の(　)に三柱の神を祀ったことに始まる。",
       "options": [
-        "杉",
-        "檜",
-        "松",
-        "鴨"
+        "本宮",
+        "麓",
+        "山頂",
+        "八ケ峰"
       ],
       "correctAnswer": 3,
       "explanation": ""
@@ -35768,7 +35768,7 @@
         "吉井勇",
         "与謝野晶子",
         "谷崎潤一郎",
-        "岩倉具視"
+        "武者小路実篤"
       ],
       "correctAnswer": 3,
       "explanation": ""
@@ -35782,7 +35782,7 @@
       "options": [
         "随心院",
         "補陀洛寺",
-        "ANAクラウンプラザホテル京都",
+        "大覚寺",
         "宝積寺"
       ],
       "correctAnswer": 1,
@@ -35815,7 +35815,7 @@
         "来迎図",
         "尋訪来迎"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
@@ -35915,8 +35915,8 @@
       "exam-year": "2012/12/09",
       "question": "(26) 花街において、芸舞妓を抱え、「お茶屋」などに送り出すところを何というか。",
       "options": [
-        "置屋",
-        "楽屋見舞",
+        "見送り",
+        "屋形",
         "お座敷",
         "花代"
       ],
@@ -35932,7 +35932,7 @@
       "options": [
         "実相院",
         "三宅八幡宮",
-        "妙高寺",
+        "妙満寺",
         "大雲寺"
       ],
       "correctAnswer": 2,
@@ -35950,7 +35950,7 @@
         "金春禅竹",
         "音阿弥"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "explanation": ""
     },
     {
@@ -36115,7 +36115,7 @@
         "服部嵐雪",
         "蒲生羅漢"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": ""
     },
     {
@@ -36126,8 +36126,8 @@
       "question": "(40) 小畑川は雨が降ると橋をも流す暴れ川となる。そのため、通行人から通行料を徴収して橋の架け替えの費用に充てた、という伝承からついたとされ、向日市と長岡京市の市境に架かるこの橋の名前は何か。",
       "options": [
         "観月橋",
+        "一文橋",
         "流れ橋",
-        "五条大橋",
         "渡月橋"
       ],
       "correctAnswer": 1,
@@ -36190,7 +36190,7 @@
         "善阿弥",
         "慈照寺"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": ""
     },
     {
@@ -36220,7 +36220,7 @@
         "重森三玲",
         "作庭家"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "explanation": ""
     },
     {
