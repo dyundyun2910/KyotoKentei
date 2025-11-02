@@ -12017,7 +12017,7 @@
     },
     {
       "id": "q5041",
-      "level": "3級", 
+      "level": "3級",
       "category": "祭と行事",
       "exam-year": "2008/12/14",
       "question": "(41) 1月4日、下鴨神社では(　)が古式にのっとり優雅に行われる。",
@@ -13844,6 +13844,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "『平家物語』には哀切極まりない場面が多いが、中でも「大原御幸」は世の無常を柳詞と胸を打つ。後白河法皇が寂光院に隠棲する建礼門院を訪ねるくだりだ。平清盛の娘、高倉天皇の中宮、安徳天皇の母。栄華を欲しいままに生きてきた女性の、平家滅亡後の孤独と落飾のあり様を哀れと藤原定家が詠んだ。小督は、その建礼門院がかつて高倉帝を慰めようと薦めた美貌の入で笛の名手。帝の寵愛に激怒した清盛に追われる。帝の命を受けて探しにきた源仲国が耳にした笛の音は帝を慕う『想夫恋』だった。しかし、宮中に戻った小督は清盛によって清閑寺で出家させられてしまう。帝の遺志により寺の後方に高倉天皇陵があり、近くには小督の墓もある。滝口寺は嵯峨の奥まった、斎藤時頼が仏門に入った往生院の跡地に立つ。訪ねても会おうとしない時頼に、横笛は指をかみ切った血で石に歌を残す。「滝口寺」の名は高山寺の小唄『滝口入道』にちなんで歌人の佐佐木信綱が命名した。祇王寺も同じ往生院跡地にあり、ゆかりの女性たちは清盛の愛人だった白拍子の姉妹、祇王と祇女。二人が出家して暮らすと、清盛の寵を祇王から奪った仏御前が訪ねてくる。無常を悟った仏御前もまた剃髪して、三人は同じ寺で穏やかに余生を送った。袈裟は北面の武士・源渡の妻。",
+    },
+    {
       "id": "q5163",
       "level": "2級",
       "category": "祭と行事",
@@ -21266,7 +21268,7 @@
         "山崎聖天"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9002",
@@ -21281,7 +21283,7 @@
         "奈良街道"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9003",
@@ -21296,7 +21298,7 @@
         "続後撰和歌集"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9004",
@@ -21311,7 +21313,7 @@
         "吉田兼倶"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9005",
@@ -21326,7 +21328,7 @@
         "頼山陽"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9006",
@@ -21341,7 +21343,7 @@
         "森蘊外"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9007",
@@ -21356,7 +21358,7 @@
         "寺田屋"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9008",
@@ -21371,7 +21373,7 @@
         "内裏"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9009",
@@ -21386,7 +21388,7 @@
         "北野線"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9010",
@@ -21401,7 +21403,7 @@
         "朔平門"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9011",
@@ -21416,7 +21418,7 @@
         "野宮神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9012",
@@ -21431,7 +21433,7 @@
         "吉田神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9013",
@@ -21446,7 +21448,7 @@
         "由岐神社"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9014",
@@ -21461,7 +21463,7 @@
         "善峯寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9015",
@@ -21476,7 +21478,7 @@
         "毘沙門堂"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9016",
@@ -21491,7 +21493,7 @@
         "等持院"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9017",
@@ -21506,7 +21508,7 @@
         "南禅寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9018",
@@ -21521,7 +21523,7 @@
         "大善寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9019",
@@ -21536,7 +21538,7 @@
         "長建寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9020",
@@ -21551,7 +21553,7 @@
         "本隆寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9021",
@@ -21566,7 +21568,7 @@
         "星"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9022",
@@ -21581,7 +21583,7 @@
         "流造"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9023",
@@ -21596,7 +21598,7 @@
         "江戸"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9024",
@@ -21611,7 +21613,7 @@
         "原在中"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9025",
@@ -21626,7 +21628,7 @@
         "安井曽太郎"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9026",
@@ -21641,7 +21643,7 @@
         "七宝"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9027",
@@ -21656,7 +21658,7 @@
         "彫金"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9028",
@@ -21671,7 +21673,7 @@
         "鳳凰"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9029",
@@ -21686,7 +21688,7 @@
         "不動明王坐像"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9030",
@@ -21701,7 +21703,7 @@
         "細川三斎"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9031",
@@ -21716,7 +21718,7 @@
         "枕草子"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9032",
@@ -21731,7 +21733,7 @@
         "帯塚"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9033",
@@ -21746,7 +21748,7 @@
         "本居宣長"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9034",
@@ -21761,7 +21763,7 @@
         "藪内家"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9035",
@@ -21776,7 +21778,7 @@
         "三井寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9036",
@@ -21791,7 +21793,7 @@
         "大蔵流"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9037",
@@ -21806,7 +21808,7 @@
         "洛東遺芳館"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9038",
@@ -21821,7 +21823,7 @@
         "紙屋治兵衛"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9039",
@@ -21836,7 +21838,7 @@
         "夷谷座"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9040",
@@ -21851,7 +21853,7 @@
         "初寄り"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9041",
@@ -21866,7 +21868,7 @@
         "泉涌寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9042",
@@ -21881,7 +21883,7 @@
         "百万遍大念珠繰り"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9043",
@@ -21896,7 +21898,7 @@
         "赤山禅院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9044",
@@ -21911,7 +21913,7 @@
         "孟宗山"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9045",
@@ -21926,7 +21928,7 @@
         "紀符祭"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9046",
@@ -21941,7 +21943,7 @@
         "矢田寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9047",
@@ -21956,7 +21958,7 @@
         "藤原秀郷"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9048",
@@ -21971,7 +21973,7 @@
         "岩屋寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9049",
@@ -21986,7 +21988,7 @@
         "欲深い"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9050",
@@ -22001,7 +22003,7 @@
         "ゆっくりと"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9051",
@@ -22016,7 +22018,7 @@
         "行者餅"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9052",
@@ -22031,7 +22033,7 @@
         "かぼちゃ"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9053",
@@ -22046,7 +22048,7 @@
         "れんこん"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9054",
@@ -22061,7 +22063,7 @@
         "距離の長さ"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9055",
@@ -22076,7 +22078,7 @@
         "便所"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9056",
@@ -22091,7 +22093,7 @@
         "知ったかぶり"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9057",
@@ -22106,7 +22108,7 @@
         "せせらぎの道"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9058",
@@ -22121,7 +22123,7 @@
         "四条"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9059",
@@ -22136,7 +22138,7 @@
         "萩"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9060",
@@ -22151,7 +22153,7 @@
         "光り輝く歴史都市・京都創生宣言"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9061",
@@ -22166,7 +22168,7 @@
         "白山神社－歯痛平癒"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9062",
@@ -22181,7 +22183,7 @@
         "石清水八幡宮－走井餅"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9063",
@@ -22196,7 +22198,7 @@
         "龍安寺－鏡湖池"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9064",
@@ -22211,7 +22213,7 @@
         "東福寺－光明院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9065",
@@ -22226,7 +22228,7 @@
         "寿老神－赤山禅院"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9066",
@@ -22241,7 +22243,7 @@
         "梨木神社－湯川秀樹"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9067",
@@ -22256,7 +22258,7 @@
         "祇園東－藤間流"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9068",
@@ -22271,7 +22273,7 @@
         "大西清右衛門－釜師"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9069",
@@ -22286,7 +22288,7 @@
         "橋本関雪－真々庵"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9070",
@@ -22301,7 +22303,7 @@
         "京都コンサートホールー下鴨"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9071",
@@ -22316,7 +22318,7 @@
         "白河"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9072",
@@ -22331,7 +22333,7 @@
         "尊勝寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9073",
@@ -22346,7 +22348,7 @@
         "二条離宮"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9074",
@@ -22361,7 +22363,7 @@
         "治承・寿永の乱"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9075",
@@ -22376,7 +22378,7 @@
         "須賀神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9076",
@@ -22391,7 +22393,7 @@
         "源頼政"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9077",
@@ -22406,7 +22408,7 @@
         "六波羅"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9078",
@@ -22421,7 +22423,7 @@
         "湛慶"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9079",
@@ -22436,7 +22438,7 @@
         "検非違使庁"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9080",
@@ -22451,7 +22453,7 @@
         "泉涌寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9081",
@@ -22466,7 +22468,7 @@
         "嵐電"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9082",
@@ -22481,7 +22483,7 @@
         "洛ナビ"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9083",
@@ -22496,7 +22498,7 @@
         "書院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9084",
@@ -22511,7 +22513,7 @@
         "聴秋閣"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9085",
@@ -22526,7 +22528,7 @@
         "大谷幸夫"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9086",
@@ -22541,7 +22543,7 @@
         "松風"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9087",
@@ -22556,7 +22558,7 @@
         "京都リサーチパーク"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9088",
@@ -22571,7 +22573,7 @@
         "大日堂"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9089",
@@ -22586,7 +22588,7 @@
         "宝菩提院"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9090",
@@ -22601,7 +22603,7 @@
         "宮本武蔵"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9091",
@@ -22616,7 +22618,7 @@
         "三条天皇"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9092",
@@ -22631,7 +22633,7 @@
         "関蝉丸神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9094",
@@ -22646,7 +22648,7 @@
         "小野篁"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9095",
@@ -22661,7 +22663,7 @@
         "明月記"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9096",
@@ -22676,7 +22678,7 @@
         "染殿地蔵"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9097",
@@ -22691,7 +22693,7 @@
         "亮子内親王"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9098",
@@ -22706,7 +22708,7 @@
         "為相"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9099",
@@ -22721,7 +22723,7 @@
         "城南宮"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9100",
@@ -22736,7 +22738,7 @@
         "後鳥羽上皇"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9101",
@@ -22751,7 +22753,7 @@
         "白虎"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9102",
@@ -22766,7 +22768,7 @@
         "町村制"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9103",
@@ -22781,7 +22783,7 @@
         "羅城門"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9104",
@@ -22796,7 +22798,7 @@
         "臨済宗"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9105",
@@ -22811,7 +22813,7 @@
         "護王神社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9106",
@@ -22826,7 +22828,7 @@
         "徳川家康"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9107",
@@ -22841,7 +22843,7 @@
         "淀城"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9108",
@@ -22856,7 +22858,7 @@
         "寺田屋"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9109",
@@ -22871,7 +22873,7 @@
         "松平慶永"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9110",
@@ -22886,7 +22888,7 @@
         "山科陵"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9111",
@@ -22901,7 +22903,7 @@
         "松尾大社"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9112",
@@ -22916,7 +22918,7 @@
         "三嶋神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9113",
@@ -22931,7 +22933,7 @@
         "御蔭神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9114",
@@ -22946,7 +22948,7 @@
         "曼殊院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9115",
@@ -22961,7 +22963,7 @@
         "宝泉院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9116",
@@ -22976,7 +22978,7 @@
         "法輪寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9117",
@@ -22991,7 +22993,7 @@
         "妙心寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9118",
@@ -23006,7 +23008,7 @@
         "芬陀院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9119",
@@ -23021,7 +23023,7 @@
         "法然院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9120",
@@ -23036,7 +23038,7 @@
         "三室戸寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9121",
@@ -23051,7 +23053,7 @@
         "通り庭"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9122",
@@ -23066,7 +23068,7 @@
         "呑湖閣"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9123",
@@ -23081,7 +23083,7 @@
         "桂離宮"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9124",
@@ -23096,7 +23098,7 @@
         "琵琶湖疏水"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9125",
@@ -23111,7 +23113,7 @@
         "海住山寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9126",
@@ -23126,7 +23128,7 @@
         "山越阿弥陀図"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9127",
@@ -23141,7 +23143,7 @@
         "黒不動"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9128",
@@ -23156,7 +23158,7 @@
         "本阿弥光悦"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9129",
@@ -23171,7 +23173,7 @@
         "浄土庭園"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9130",
@@ -23186,7 +23188,7 @@
         "龍安寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9131",
@@ -23201,7 +23203,7 @@
         "京仏具"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9132",
@@ -23216,7 +23218,7 @@
         "龍谷ミュージアム"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9133",
@@ -23231,7 +23233,7 @@
         "藤原定家"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9134",
@@ -23246,7 +23248,7 @@
         "武野紹鴎"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9135",
@@ -23261,7 +23263,7 @@
         "能楽"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9136",
@@ -23276,7 +23278,7 @@
         "金剛流"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9137",
@@ -23291,7 +23293,7 @@
         "清凉寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9138",
@@ -23306,7 +23308,7 @@
         "事始め"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9139",
@@ -23321,7 +23323,7 @@
         "菊"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9140",
@@ -23336,7 +23338,7 @@
         "ギオンコーナー"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9141",
@@ -23351,7 +23353,7 @@
         "はじき初め"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9142",
@@ -23366,7 +23368,7 @@
         "1月28日"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9143",
@@ -23381,7 +23383,7 @@
         "花笠踊り"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9144",
@@ -23396,7 +23398,7 @@
         "平野神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9145",
@@ -23411,7 +23413,7 @@
         "京都御所"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9146",
@@ -23426,7 +23428,7 @@
         "車折神社"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9147",
@@ -23441,7 +23443,7 @@
         "南観音山"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9148",
@@ -23456,7 +23458,7 @@
         "ふざける"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9149",
@@ -23471,7 +23473,7 @@
         "北へ行く"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9150",
@@ -23486,7 +23488,7 @@
         "捨てる"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9151",
@@ -23501,7 +23503,7 @@
         "本膳"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9152",
@@ -23516,7 +23518,7 @@
         "来客時に特別につくる鍋料理"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9153",
@@ -23531,7 +23533,7 @@
         "麦代餅"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9154",
@@ -23546,7 +23548,7 @@
         "粽"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9155",
@@ -23561,7 +23563,7 @@
         "めはり寿司"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9156",
@@ -23576,7 +23578,7 @@
         "銀色"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9157",
@@ -23591,7 +23593,7 @@
         "茨木童子"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9158",
@@ -23606,7 +23608,7 @@
         "雪駄ちゃらちゃら"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9159",
@@ -23621,7 +23623,7 @@
         "八坂神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9160",
@@ -23636,7 +23638,7 @@
         "深泥池"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9161",
@@ -23651,7 +23653,7 @@
         "長楽寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9162",
@@ -23666,7 +23668,7 @@
         "法住寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9163",
@@ -23681,7 +23683,7 @@
         "鹿ケ谷"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9164",
@@ -23696,7 +23698,7 @@
         "高松神明神社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9165",
@@ -23711,7 +23713,7 @@
         "実光院"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9166",
@@ -23726,7 +23728,7 @@
         "奥嵯峨"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9167",
@@ -23741,7 +23743,7 @@
         "沢庵漬け"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9168",
@@ -23756,7 +23758,7 @@
         "鹿島の鯰"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9169",
@@ -23771,7 +23773,7 @@
         "戒光寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9170",
@@ -23786,7 +23788,7 @@
         "石清水八幡宮"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9171",
@@ -23801,7 +23803,7 @@
         "ケヤキ"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9172",
@@ -23816,7 +23818,7 @@
         "赤椿"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9173",
@@ -23831,7 +23833,7 @@
         "円山公園"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9174",
@@ -23846,7 +23848,7 @@
         "紫ずきん"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9175",
@@ -23861,7 +23863,7 @@
         "近藤正慎"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9176",
@@ -23876,7 +23878,7 @@
         "せせらぎの道"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9177",
@@ -23891,7 +23893,7 @@
         "八坂の塔"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9178",
@@ -23906,7 +23908,7 @@
         "五条楽園まつり"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9179",
@@ -23921,7 +23923,7 @@
         "5月"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9180",
@@ -23936,7 +23938,7 @@
         "京版画"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9181",
@@ -23951,7 +23953,7 @@
         "岡崎公園"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9182",
@@ -23966,7 +23968,7 @@
         "鳥居形"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9183",
@@ -23981,7 +23983,7 @@
         "大覚寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9184",
@@ -23996,7 +23998,7 @@
         "さわらびの道"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9185",
@@ -24011,7 +24013,7 @@
         "鎌餅"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9186",
@@ -24026,7 +24028,7 @@
         "京都府民総合交流プラザ(京都テルサ)"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9187",
@@ -24041,7 +24043,7 @@
         "霊火の茶会"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9188",
@@ -24056,7 +24058,7 @@
         "清浄華院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9189",
@@ -24071,7 +24073,7 @@
         "京都市美術館"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9190",
@@ -24086,7 +24088,7 @@
         "ワグネル"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9191",
@@ -24101,7 +24103,7 @@
         "大原野神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9192",
@@ -24116,7 +24118,7 @@
         "大覚寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9193",
@@ -24131,7 +24133,7 @@
         "藤森祭"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9194",
@@ -24146,7 +24148,7 @@
         "八朔祭"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9195",
@@ -24161,7 +24163,7 @@
         "つぶ餡入り生八ッ橋"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9196",
@@ -24176,7 +24178,7 @@
         "鴨川をどり"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9197",
@@ -24191,7 +24193,7 @@
         "11月15日"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9198",
@@ -24206,7 +24208,7 @@
         "和歌祭"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9199",
@@ -24221,7 +24223,7 @@
         "吉井勇"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9200",
@@ -24236,7 +24238,7 @@
         "二尊院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10001",
@@ -24251,7 +24253,7 @@
         "巨椋池"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10002",
@@ -24266,7 +24268,7 @@
         "坂上田村麻呂"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10003",
@@ -24281,7 +24283,7 @@
         "藤原頼通"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10004",
@@ -24296,7 +24298,7 @@
         "山城→山代→山背"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10005",
@@ -24311,7 +24313,7 @@
         "清水"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10006",
@@ -24326,7 +24328,7 @@
         "足利義昭"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10007",
@@ -24341,7 +24343,7 @@
         "山名満祐(宗全)"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10008",
@@ -24356,7 +24358,7 @@
         "建勲神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10009",
@@ -24371,7 +24373,7 @@
         "南禅寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10010",
@@ -24386,7 +24388,7 @@
         "西京極総合運動公園"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10011",
@@ -24401,7 +24403,7 @@
         "徳川家康"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10012",
@@ -24416,7 +24418,7 @@
         "若井"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10013",
@@ -24431,7 +24433,7 @@
         "安井金比羅宮"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10014",
@@ -24446,7 +24448,7 @@
         "疱瘡除け"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10015",
@@ -24461,7 +24463,7 @@
         "龍源院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10016",
@@ -24476,7 +24478,7 @@
         "宝鏡寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10017",
@@ -24491,7 +24493,7 @@
         "腹帯地蔵"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10018",
@@ -24506,7 +24508,7 @@
         "粟田御所"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10019",
@@ -24521,7 +24523,7 @@
         "神光院"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10020",
@@ -24536,7 +24538,7 @@
         "平等院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10021",
@@ -24551,7 +24553,7 @@
         "枯山水"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10022",
@@ -24566,7 +24568,7 @@
         "八幡造"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10023",
@@ -24581,7 +24583,7 @@
         "祇園甲部歌舞練場"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10024",
@@ -24596,7 +24598,7 @@
         "龍安寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10025",
@@ -24611,7 +24613,7 @@
         "日暮門"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10026",
@@ -24626,7 +24628,7 @@
         "清水卯一"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10027",
@@ -24641,7 +24643,7 @@
         "阿弥陀如来坐像"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10028",
@@ -24656,7 +24658,7 @@
         "琳派"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10029",
@@ -24671,7 +24673,7 @@
         "智積院"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10030",
@@ -24686,7 +24688,7 @@
         "野々村仁清"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10031",
@@ -24701,7 +24703,7 @@
         "新古今和歌集"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10032",
@@ -24716,7 +24718,7 @@
         "京の神祇装束調度品"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10033",
@@ -24731,7 +24733,7 @@
         "柿渋"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10034",
@@ -24746,7 +24748,7 @@
         "一期一会"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10035",
@@ -24761,7 +24763,7 @@
         "大住院以信"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10036",
@@ -24776,7 +24778,7 @@
         "世阿弥"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10037",
@@ -24791,7 +24793,7 @@
         "神泉苑"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10038",
@@ -24806,7 +24808,7 @@
         "片岡千恵蔵"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10039",
@@ -24821,7 +24823,7 @@
         "藤"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10040",
@@ -24836,7 +24838,7 @@
         "祇園小唄"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10041",
@@ -24851,7 +24853,7 @@
         "葵と菖蒲"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10042",
@@ -24866,7 +24868,7 @@
         "孟宗山"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10043",
@@ -24881,7 +24883,7 @@
         "牛王宝印"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10044",
@@ -24896,7 +24898,7 @@
         "良縁"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10045",
@@ -24911,7 +24913,7 @@
         "嵐山"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10046",
@@ -24926,7 +24928,7 @@
         "鳥居形"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10047",
@@ -24941,7 +24943,7 @@
         "浄禅寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10048",
@@ -24956,7 +24958,7 @@
         "長岡京市"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10049",
@@ -24971,7 +24973,7 @@
         "鳴滝大根焚き"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10050",
@@ -24986,7 +24988,7 @@
         "つまらない"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10051",
@@ -25001,7 +25003,7 @@
         "仕出屋"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10052",
@@ -25016,7 +25018,7 @@
         "九条ねぎ"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10053",
@@ -25031,7 +25033,7 @@
         "いな茶"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10054",
@@ -25046,7 +25048,7 @@
         "浄土"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10055",
@@ -25061,7 +25063,7 @@
         "四条"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10056",
@@ -25076,7 +25078,7 @@
         "泡盛"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10057",
@@ -25091,7 +25093,7 @@
         "鞍馬天狗"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10058",
@@ -25106,7 +25108,7 @@
         "萬福寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10059",
@@ -25121,7 +25123,7 @@
         "粽 ⇒ はなびら餅 ⇒ 水無月 ⇒ 亥の子餅"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10060",
@@ -25136,7 +25138,7 @@
         "壬生"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10061",
@@ -25151,7 +25153,7 @@
         "維新志士列"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10062",
@@ -25166,7 +25168,7 @@
         "重陽の節句"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10063",
@@ -25181,7 +25183,7 @@
         "系図香"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10064",
@@ -25196,7 +25198,7 @@
         "鞍馬山"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10065",
@@ -25211,7 +25213,7 @@
         "鍾馗"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10066",
@@ -25226,7 +25228,7 @@
         "八咫烏"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10067",
@@ -25241,7 +25243,7 @@
         "燈籠"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10068",
@@ -25256,7 +25258,7 @@
         "梅宮大社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10069",
@@ -25271,7 +25273,7 @@
         "千枚漬"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10070",
@@ -25286,7 +25288,7 @@
         "千本釈迦堂"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9071",
@@ -25301,7 +25303,7 @@
         "京都府立大学"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9072",
@@ -25316,7 +25318,7 @@
         "福沢諭吉"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9073",
@@ -25331,7 +25333,7 @@
         "立命館大学"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9074",
@@ -25346,7 +25348,7 @@
         "明治国際医療大学"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9075",
@@ -25361,7 +25363,7 @@
         "京都光華女子大学"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9076",
@@ -25376,7 +25378,7 @@
         "京都外国語大学"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9077",
@@ -25391,7 +25393,7 @@
         "知恩院"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9078",
@@ -25406,7 +25408,7 @@
         "建仁寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9079",
@@ -25421,7 +25423,7 @@
         "都未生流"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9080",
@@ -25436,7 +25438,7 @@
         "京都府立医科大学"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9081",
@@ -25451,7 +25453,7 @@
         "宸殿"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9082",
@@ -25466,7 +25468,7 @@
         "文殊菩薩"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9083",
@@ -25481,7 +25483,7 @@
         "祈祷"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9084",
@@ -25496,7 +25498,7 @@
         "証拠の阿弥陀"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9085",
@@ -25511,7 +25513,7 @@
         "実相院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9086",
@@ -25526,7 +25528,7 @@
         "カエデ"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9087",
@@ -25541,7 +25543,7 @@
         "水風呂"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9088",
@@ -25556,7 +25558,7 @@
         "松ヶ崎題目踊り"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9089",
@@ -25571,7 +25573,7 @@
         "無動谷"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9090",
@@ -25586,7 +25588,7 @@
         "瑠璃堂"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9091",
@@ -25601,7 +25603,7 @@
         "大覚寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9092",
@@ -25616,7 +25618,7 @@
         "水戸藩邸"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9093",
@@ -25631,7 +25633,7 @@
         "姉・蛸・綾・仏"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9094",
@@ -25646,7 +25648,7 @@
         "柳・麩屋・富"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9095",
@@ -25661,7 +25663,7 @@
         "妙法院"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9096",
@@ -25676,7 +25678,7 @@
         "碓井貞光"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9097",
@@ -25691,7 +25693,7 @@
         "安産"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9098",
@@ -25706,7 +25708,7 @@
         "なのにあなたは京都へゆくの"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9099",
@@ -25721,7 +25723,7 @@
         "京都が泣いている"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q9100",
@@ -25736,7 +25738,7 @@
         "伊根町"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10101",
@@ -25751,7 +25753,7 @@
         "白虎"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10102",
@@ -25766,7 +25768,7 @@
         "皇嘉門大路"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10103",
@@ -25781,7 +25783,7 @@
         "足利義昭"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10104",
@@ -25796,7 +25798,7 @@
         "松永久秀"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10105",
@@ -25811,7 +25813,7 @@
         "京都町奉行"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10106",
@@ -25826,7 +25828,7 @@
         "二条離宮"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10107",
@@ -25841,7 +25843,7 @@
         "七条大橋"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10108",
@@ -25856,7 +25858,7 @@
         "仁和寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10109",
@@ -25871,7 +25873,7 @@
         "坂本龍馬"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10110",
@@ -25886,7 +25888,7 @@
         "長等山第一トンネル竪穴工事跡"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10111",
@@ -25901,7 +25903,7 @@
         "若宮八幡宮社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10112",
@@ -25916,7 +25918,7 @@
         "伴氏社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10113",
@@ -25931,7 +25933,7 @@
         "今宮神社"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10114",
@@ -25946,7 +25948,7 @@
         "白山神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10115",
@@ -25961,7 +25963,7 @@
         "建仁寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10116",
@@ -25976,7 +25978,7 @@
         "本能寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10117",
@@ -25991,7 +25993,7 @@
         "龍安寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10118",
@@ -26006,7 +26008,7 @@
         "真如堂"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10119",
@@ -26021,7 +26023,7 @@
         "大覚寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10120",
@@ -26036,7 +26038,7 @@
         "おそらく椿"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10121",
@@ -26051,7 +26053,7 @@
         "山県有朋"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10122",
@@ -26066,7 +26068,7 @@
         "花の天井"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10123",
@@ -26081,7 +26083,7 @@
         "妙喜庵"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10124",
@@ -26096,7 +26098,7 @@
         "有清園"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10125",
@@ -26111,7 +26113,7 @@
         "中根金作"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10126",
@@ -26126,7 +26128,7 @@
         "レオン・ジュリー"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10127",
@@ -26141,7 +26143,7 @@
         "松室重光"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10128",
@@ -26156,7 +26158,7 @@
         "霊雲院"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10129",
@@ -26171,7 +26173,7 @@
         "紅白梅図"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10130",
@@ -26186,7 +26188,7 @@
         "東向観音寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10131",
@@ -26201,7 +26203,7 @@
         "京繡"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10132",
@@ -26216,7 +26218,7 @@
         "京表具"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10133",
@@ -26231,7 +26233,7 @@
         "千載和歌集"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10134",
@@ -26246,7 +26248,7 @@
         "燕庵"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10135",
@@ -26261,7 +26263,7 @@
         "前田正名"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10136",
@@ -26276,7 +26278,7 @@
         "仁和寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10137",
@@ -26291,7 +26293,7 @@
         "宝生和英"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10138",
@@ -26306,7 +26308,7 @@
         "12月13日"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10139",
@@ -26321,7 +26323,7 @@
         "北野をどり"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10140",
@@ -26336,7 +26338,7 @@
         "鏡板"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10141",
@@ -26351,7 +26353,7 @@
         "御手洗祭"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10142",
@@ -26366,7 +26368,7 @@
         "八朔祭"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10143",
@@ -26381,7 +26383,7 @@
         "嵯峨祭"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10144",
@@ -26396,7 +26398,7 @@
         "京都薪能"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10145",
@@ -26411,7 +26413,7 @@
         "京都市役所"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10146",
@@ -26426,7 +26428,7 @@
         "8月23日"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10147",
@@ -26441,7 +26443,7 @@
         "平安神宮"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10148",
@@ -26456,7 +26458,7 @@
         "寿宝寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10149",
@@ -26471,7 +26473,7 @@
         "上品で明るい"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10150",
@@ -26486,7 +26488,7 @@
         "くすり"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10151",
@@ -26501,7 +26503,7 @@
         "お盆"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10152",
@@ -26516,7 +26518,7 @@
         "にぎり寿司"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10153",
@@ -26531,7 +26533,7 @@
         "にしん蕎麦"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10154",
@@ -26546,7 +26548,7 @@
         "六道まいり"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10155",
@@ -26561,7 +26563,7 @@
         "やきもち"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10156",
@@ -26576,7 +26578,7 @@
         "柏餅"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10157",
@@ -26591,7 +26593,7 @@
         "さわらびの道"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10158",
@@ -26606,7 +26608,7 @@
         "ハイデルベルク"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10159",
@@ -26621,7 +26623,7 @@
         "コトチカ"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10160",
@@ -26636,7 +26638,7 @@
         "古川町商店街"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10161",
@@ -26651,7 +26653,7 @@
         "勝持寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10162",
@@ -26666,7 +26668,7 @@
         "牡丹"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10163",
@@ -26681,7 +26683,7 @@
         "菅原院天満宮神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10164",
@@ -26696,7 +26698,7 @@
         "宝鏡寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10165",
@@ -26711,7 +26713,7 @@
         "ハス"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10166",
@@ -26726,7 +26728,7 @@
         "勧修寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10167",
@@ -26741,7 +26743,7 @@
         "桜"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10168",
@@ -26756,7 +26758,7 @@
         "菜の花"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10169",
@@ -26771,7 +26773,7 @@
         "競馬"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10170",
@@ -26786,7 +26788,7 @@
         "背丈が高い"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10173",
@@ -26801,7 +26803,7 @@
         "州浜"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10174",
@@ -26816,7 +26818,7 @@
         "蓮如"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10175",
@@ -26831,7 +26833,7 @@
         "哲学の道"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10176",
@@ -26846,7 +26848,7 @@
         "仁和寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10177",
@@ -26861,7 +26863,7 @@
         "泉泉社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10178",
@@ -26876,7 +26878,7 @@
         "東寺、龍安寺、天龍寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10179",
@@ -26891,7 +26893,7 @@
         "能楽"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10180",
@@ -26906,7 +26908,7 @@
         "記憶遺産"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10181",
@@ -26921,7 +26923,7 @@
         "新徴組"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10182",
@@ -26936,7 +26938,7 @@
         "会津戦争"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10183",
@@ -26951,7 +26953,7 @@
         "土佐"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10184",
@@ -26966,7 +26968,7 @@
         "寺田屋"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10185",
@@ -26981,7 +26983,7 @@
         "四条繁栄会商店街"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10186",
@@ -26996,7 +26998,7 @@
         "三条通"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10187",
@@ -27011,7 +27013,7 @@
         "龍谷大学"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10188",
@@ -27026,7 +27028,7 @@
         "水力発電所の建設"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10189",
@@ -27041,7 +27043,7 @@
         "明石博高"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10190",
@@ -27056,7 +27058,7 @@
         "伝道院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10191",
@@ -27071,7 +27073,7 @@
         "第4回内国勧業博覧会"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10192",
@@ -27086,7 +27088,7 @@
         "国立京都国際会館"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10193",
@@ -27101,7 +27103,7 @@
         "熊野神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10194",
@@ -27116,7 +27118,7 @@
         "広瀬利兵衛"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10195",
@@ -27131,7 +27133,7 @@
         "日本駄右衛門"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10196",
@@ -27146,7 +27148,7 @@
         "光雲寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10197",
@@ -27161,7 +27163,7 @@
         "革堂"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10198",
@@ -27176,7 +27178,7 @@
         "哲学の道"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10199",
@@ -27191,7 +27193,7 @@
         "ネズミ"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10200",
@@ -27206,7 +27208,7 @@
         "大根焚き"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11001",
@@ -27221,7 +27223,7 @@
         "巨椋池"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11002",
@@ -27236,7 +27238,7 @@
         "朱雀門"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11003",
@@ -27251,7 +27253,7 @@
         "方丈記"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11004",
@@ -27266,7 +27268,7 @@
         "法勝寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11005",
@@ -27281,7 +27283,7 @@
         "京都所司代"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11006",
@@ -27296,7 +27298,7 @@
         "日親"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11007",
@@ -27311,7 +27313,7 @@
         "智仁親王"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11008",
@@ -27326,7 +27328,7 @@
         "和楽庵"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11009",
@@ -27341,7 +27343,7 @@
         "沖田総司"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11010",
@@ -27356,7 +27358,7 @@
         "鹿ケ谷"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11011",
@@ -27371,7 +27373,7 @@
         "亀の井"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11012",
@@ -27386,7 +27388,7 @@
         "下鴨神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11013",
@@ -27401,7 +27403,7 @@
         "由岐神社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11014",
@@ -27416,7 +27418,7 @@
         "天照大神図"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11015",
@@ -27431,7 +27433,7 @@
         "一言寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11016",
@@ -27446,7 +27448,7 @@
         "妙覚寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11017",
@@ -27461,7 +27463,7 @@
         "円通寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11018",
@@ -27476,7 +27478,7 @@
         "誓願寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11019",
@@ -27491,7 +27493,7 @@
         "朝堂院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11020",
@@ -27506,7 +27508,7 @@
         "常寂光寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11021",
@@ -27521,7 +27523,7 @@
         "仁和寺・五重塔"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11022",
@@ -27536,7 +27538,7 @@
         "槇文彦"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11023",
@@ -27551,7 +27553,7 @@
         "金地院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11024",
@@ -27566,7 +27568,7 @@
         "十六羅漢の庭"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11025",
@@ -27581,7 +27583,7 @@
         "狩野常信"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10026",
@@ -27596,7 +27598,7 @@
         "建仁寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10027",
@@ -27611,7 +27613,7 @@
         "長勢"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10028",
@@ -27626,7 +27628,7 @@
         "清凉寺・千手観音坐像"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10029",
@@ -27641,7 +27643,7 @@
         "浄瑠璃寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10030",
@@ -27656,7 +27658,7 @@
         "俵屋宗達"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10031",
@@ -27671,7 +27673,7 @@
         "剣仲紹智"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10032",
@@ -27686,7 +27688,7 @@
         "坂戸"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10033",
@@ -27701,7 +27703,7 @@
         "神泉苑"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10034",
@@ -27716,7 +27718,7 @@
         "祇園東"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10035",
@@ -27731,7 +27733,7 @@
         "平野神社"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10036",
@@ -27746,7 +27748,7 @@
         "奴島田"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10037",
@@ -27761,7 +27763,7 @@
         "相撲拳"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10038",
@@ -27776,7 +27778,7 @@
         "若柳流"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10039",
@@ -27791,7 +27793,7 @@
         "中村宗哲"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10040",
@@ -27806,7 +27808,7 @@
         "京象嵌"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10041",
@@ -27821,7 +27823,7 @@
         "石清水八幡宮"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10042",
@@ -27836,7 +27838,7 @@
         "浄妙山"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10043",
@@ -27851,7 +27853,7 @@
         "延暦武官行進列"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10044",
@@ -27866,7 +27868,7 @@
         "良縁"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10045",
@@ -27881,7 +27883,7 @@
         "嵐山"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10046",
@@ -27896,7 +27898,7 @@
         "鳥居形"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10047",
@@ -27911,7 +27913,7 @@
         "浄禅寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10048",
@@ -27926,7 +27928,7 @@
         "とうもろこし"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10049",
@@ -27941,7 +27943,7 @@
         "損な"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10050",
@@ -27956,7 +27958,7 @@
         "気ぜわしい"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10051",
@@ -27971,7 +27973,7 @@
         "本隆寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10052",
@@ -27986,7 +27988,7 @@
         "徳川家光"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10053",
@@ -28001,7 +28003,7 @@
         "布袋尊"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10054",
@@ -28016,7 +28018,7 @@
         "盗難除け"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10055",
@@ -28031,7 +28033,7 @@
         "鎌餅"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10056",
@@ -28046,7 +28048,7 @@
         "吹き寄せ"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10057",
@@ -28061,7 +28063,7 @@
         "鶏冠井"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10058",
@@ -28076,7 +28078,7 @@
         "平重衡"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10059",
@@ -28091,7 +28093,7 @@
         "大宮通"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10060",
@@ -28106,7 +28108,7 @@
         "墨染桜"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10061",
@@ -28121,7 +28123,7 @@
         "大饗"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10062",
@@ -28136,7 +28138,7 @@
         "ご先祖"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10063",
@@ -28151,7 +28153,7 @@
         "葱とはんぺいの汁物"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10064",
@@ -28166,7 +28168,7 @@
         "小豆ごはん"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10065",
@@ -28181,7 +28183,7 @@
         "大阪"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10066",
@@ -28196,7 +28198,7 @@
         "南瓜"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10067",
@@ -28211,7 +28213,7 @@
         "賀茂なす"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10068",
@@ -28226,7 +28228,7 @@
         "油揚げ入りのそば"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10069",
@@ -28241,7 +28243,7 @@
         "真盛豆"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10070",
@@ -28256,7 +28258,7 @@
         "光悦寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10071",
@@ -28271,7 +28273,7 @@
         "大堰川"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10072",
@@ -28286,7 +28288,7 @@
         "智積院密厳堂"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10073",
@@ -28301,7 +28303,7 @@
         "四之船入"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10074",
@@ -28316,7 +28318,7 @@
         "水戸藩"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10075",
@@ -28331,7 +28333,7 @@
         "中岡慎太郎"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10076",
@@ -28346,7 +28348,7 @@
         "烏丸通"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10077",
@@ -28361,7 +28363,7 @@
         "楊梅小路"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10078",
@@ -28376,7 +28378,7 @@
         "後冷泉天皇"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10079",
@@ -28391,7 +28393,7 @@
         "呉春"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10080",
@@ -28406,7 +28408,7 @@
         "北垣国道"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10081",
@@ -28421,7 +28423,7 @@
         "善峯寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10082",
@@ -28436,7 +28438,7 @@
         "源光庵"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10083",
@@ -28451,7 +28453,7 @@
         "泉涌寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10084",
@@ -28466,7 +28468,7 @@
         "清水寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10085",
@@ -28481,7 +28483,7 @@
         "隠元"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10086",
@@ -28496,7 +28498,7 @@
         "御香宮神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10087",
@@ -28511,7 +28513,7 @@
         "神護寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10088",
@@ -28526,7 +28528,7 @@
         "智積院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10089",
@@ -28541,7 +28543,7 @@
         "法界寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10090",
@@ -28556,7 +28558,7 @@
         "お亀桜"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10091",
@@ -28571,7 +28573,7 @@
         "南禅寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10092",
@@ -28586,7 +28588,7 @@
         "夕佳亭"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10093",
@@ -28601,7 +28603,7 @@
         "数寄屋造"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10094",
@@ -28616,7 +28618,7 @@
         "黄金池"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10095",
@@ -28631,7 +28633,7 @@
         "宗峰妙超"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10096",
@@ -28646,7 +28648,7 @@
         "退耕庵"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10097",
@@ -28661,7 +28663,7 @@
         "千利休"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10098",
@@ -28676,7 +28678,7 @@
         "高桐院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10099",
@@ -28691,7 +28693,7 @@
         "四ツ頭茶礼"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q10100",
@@ -28706,7 +28708,7 @@
         "喫茶養生記"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11101",
@@ -28721,7 +28723,7 @@
         "孝明天皇"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11102",
@@ -28736,7 +28738,7 @@
         "北"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11103",
@@ -28751,7 +28753,7 @@
         "南京城"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11104",
@@ -28766,7 +28768,7 @@
         "鳥羽"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11105",
@@ -28781,7 +28783,7 @@
         "足利義昭"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11106",
@@ -28796,7 +28798,7 @@
         "仏光寺通"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11107",
@@ -28811,7 +28813,7 @@
         "灰屋紹益"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11108",
@@ -28826,7 +28828,7 @@
         "海援隊"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11109",
@@ -28841,7 +28843,7 @@
         "浜岡光哲"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11110",
@@ -28856,7 +28858,7 @@
         "南禅寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11111",
@@ -28871,7 +28873,7 @@
         "月読神社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11112",
@@ -28886,7 +28888,7 @@
         "火除け"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11113",
@@ -28901,7 +28903,7 @@
         "安井金比羅宮"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11114",
@@ -28916,7 +28918,7 @@
         "百鬼夜行"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11115",
@@ -28931,7 +28933,7 @@
         "永観堂"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11116",
@@ -28946,7 +28948,7 @@
         "曼殊院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11117",
@@ -28961,7 +28963,7 @@
         "大徳寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11118",
@@ -28976,7 +28978,7 @@
         "相国寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11119",
@@ -28991,7 +28993,7 @@
         "宝鏡寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11120",
@@ -29006,7 +29008,7 @@
         "実相院"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11121",
@@ -29021,7 +29023,7 @@
         "八窓席"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11122",
@@ -29036,7 +29038,7 @@
         "千宗旦"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11123",
@@ -29051,7 +29053,7 @@
         "松室重光"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11124",
@@ -29066,7 +29068,7 @@
         "金閣寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11125",
@@ -29081,7 +29083,7 @@
         "佐野藤右衛門"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11126",
@@ -29096,7 +29098,7 @@
         "白不動"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11127",
@@ -29111,7 +29113,7 @@
         "六波羅蜜寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11128",
@@ -29126,7 +29128,7 @@
         "紅白梅図"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11129",
@@ -29141,7 +29143,7 @@
         "尾形乾山"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11130",
@@ -29156,7 +29158,7 @@
         "鷹峯"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11131",
@@ -29171,7 +29173,7 @@
         "京人形"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11132",
@@ -29186,7 +29188,7 @@
         "京鹿の子絞"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11133",
@@ -29201,7 +29203,7 @@
         "武野紹鴎"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11134",
@@ -29216,7 +29218,7 @@
         "藪内家"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11135",
@@ -29231,7 +29233,7 @@
         "毘沙門堂"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11136",
@@ -29246,7 +29248,7 @@
         "音阿弥"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11137",
@@ -29261,7 +29263,7 @@
         "金剛流"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11138",
@@ -29276,7 +29278,7 @@
         "中村勘三郎"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11139",
@@ -29291,7 +29293,7 @@
         "藤間流"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11140",
@@ -29306,7 +29308,7 @@
         "祇園東"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11141",
@@ -29321,7 +29323,7 @@
         "八坂神社"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11142",
@@ -29336,7 +29338,7 @@
         "御阿礼神事"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11143",
@@ -29351,7 +29353,7 @@
         "掛軸祭"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11144",
@@ -29366,7 +29368,7 @@
         "函谷鉾"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11145",
@@ -29381,7 +29383,7 @@
         "12月21日"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11146",
@@ -29396,7 +29398,7 @@
         "北野天満宮"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11147",
@@ -29411,7 +29413,7 @@
         "大文字"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11148",
@@ -29426,7 +29428,7 @@
         "あまえる"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11149",
@@ -29441,7 +29443,7 @@
         "膝"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11150",
@@ -29456,7 +29458,7 @@
         "ゆで卵"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11151",
@@ -29471,7 +29473,7 @@
         "十三"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11152",
@@ -29486,7 +29488,7 @@
         "お不動"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11153",
@@ -29501,7 +29503,7 @@
         "かしらいも"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11154",
@@ -29516,7 +29518,7 @@
         "京うど"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11155",
@@ -29531,7 +29533,7 @@
         "みたらし団子"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11156",
@@ -29546,7 +29548,7 @@
         "幽霊子育飴"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11157",
@@ -29561,7 +29563,7 @@
         "猪"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11158",
@@ -29576,7 +29578,7 @@
         "宇治橋"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11159",
@@ -29591,7 +29593,7 @@
         "ねねの道"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11160",
@@ -29606,7 +29608,7 @@
         "いのちの森"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11161",
@@ -29621,7 +29623,7 @@
         "石清水八幡宮"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11162",
@@ -29636,7 +29638,7 @@
         "梨木神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11163",
@@ -29651,7 +29653,7 @@
         "庭石"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11164",
@@ -29666,7 +29668,7 @@
         "麦代餅"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11165",
@@ -29681,7 +29683,7 @@
         "酢屋"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11166",
@@ -29696,7 +29698,7 @@
         "油懸地蔵"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11167",
@@ -29711,7 +29713,7 @@
         "ウメ"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11168",
@@ -29726,7 +29728,7 @@
         "布袋尊"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11169",
@@ -29741,7 +29743,7 @@
         "藤原忠通"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11170",
@@ -29756,7 +29758,7 @@
         "橋姫神社"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11171",
@@ -29771,7 +29773,7 @@
         "蓮華王院・本堂"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11172",
@@ -29786,7 +29788,7 @@
         "流造"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11173",
@@ -29801,7 +29803,7 @@
         "知恩院"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11174",
@@ -29816,7 +29818,7 @@
         "西本願寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11175",
@@ -29831,7 +29833,7 @@
         "梵天坐像"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11176",
@@ -29846,7 +29848,7 @@
         "神護寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11177",
@@ -29861,7 +29863,7 @@
         "宝積寺"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11178",
@@ -29876,7 +29878,7 @@
         "当麻曼荼羅縁起"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11179",
@@ -29891,7 +29893,7 @@
         "妙心寺"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11180",
@@ -29906,7 +29908,7 @@
         "藤原為家"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11181",
@@ -29921,7 +29923,7 @@
         "足利義教"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11182",
@@ -29936,7 +29938,7 @@
         "大覚寺"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11183",
@@ -29951,7 +29953,7 @@
         "園城寺(三井寺)"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11184",
@@ -29966,7 +29968,7 @@
         "本圀寺"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11185",
@@ -29981,7 +29983,7 @@
         "明智光秀"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11186",
@@ -29996,7 +29998,7 @@
         "小栗栖"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11187",
@@ -30011,7 +30013,7 @@
         "淀城"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11188",
@@ -30026,7 +30028,7 @@
         "後水尾天皇"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11189",
@@ -30041,7 +30043,7 @@
         "御土居"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11190",
@@ -30056,7 +30058,7 @@
         "伏見"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11191",
@@ -30071,7 +30073,7 @@
         "京都工芸繊維大学"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11192",
@@ -30086,7 +30088,7 @@
         "京都コンサートホール"
       ],
       "correctAnswer": 2,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11193",
@@ -30101,7 +30103,7 @@
         "護王神社"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11194",
@@ -30116,7 +30118,7 @@
         "たわわちゃん"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11195",
@@ -30131,7 +30133,7 @@
         "石清水八幡宮"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11196",
@@ -30146,7 +30148,7 @@
         "山科駅"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11197",
@@ -30161,7 +30163,7 @@
         "スギ"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11198",
@@ -30176,7 +30178,7 @@
         "源義経"
       ],
       "correctAnswer": 3,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11199",
@@ -30191,7 +30193,7 @@
         "嵯峨天皇"
       ],
       "correctAnswer": 0,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q11200",
@@ -30206,7 +30208,7 @@
         "西洞院大路"
       ],
       "correctAnswer": 1,
-      "explanation": null
+      "explanation": ""
     },
     {
       "id": "q02201",
